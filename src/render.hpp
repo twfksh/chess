@@ -4,7 +4,10 @@
 #include <iostream>
 
 class Render {
-	Render(); // renders the chess board
-}
+	const int ROWS = 8;
+    const int COLS = 8;
+public:
+	void render(); // renders the chess board
+};
 
 #endif // render_h
